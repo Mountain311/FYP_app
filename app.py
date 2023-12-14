@@ -36,7 +36,7 @@ def single_image_run(HSI, MSI):
     MSI_arrays = np.array(MSI_arrays)
     HSI_arrays = np.array(HSI_arrays)
 
-    model = load_model("F:\FYP\HSRnet-coreimages\models\HSR_Net9_final_100e.h5")
+    model = load_model("HSR_Net9_final_100e.h5")
 
     pred = model.predict(
         [
